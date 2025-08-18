@@ -1,4 +1,4 @@
-# BibleVerseQuest
+# BibleVersesQuest
 
 *A daily, Bible‑themed Wordle‑like. Probe with any 5‑letter guess for clues; solve the true KJV word to reveal the full verse.*
 
