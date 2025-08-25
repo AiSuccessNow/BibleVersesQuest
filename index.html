@@ -64,15 +64,26 @@
 </head>
 <body>
   <div class="app">
-    <header>
-      <h1>BibleVerseQuest — Daily</h1>
-      <div class="controls">
-        <span id="dailyTag" class="pill">One puzzle per day</span>
-        <button class="btn secondary" id="shareBtn" type="button" title="Share today’s result">Share</button>
-        <a class="btn" id="donateBtn" href="https://ko-fi.com/youraccount" target="_blank" rel="noopener">Donate</a>
-        <button class="btn" id="helpBtn" type="button">Help</button>
-      </div>
-    </header>
+ <header>
+  <!-- Top Row -->
+  <div class="header-row">
+    <h1>Bible Verse Quest (Bible Wordle)</h1>
+  </div>
+
+  <!-- Next Row: Controls -->
+  <div class="header-row controls">
+    <button class="tile btn" id="shareBtn" type="button" title="Share today’s result">
+      <strong>Share</strong>
+    </button>
+    <button class="tile btn" id="helpBtn" type="button">
+      <strong>Help</strong>
+    </button>
+    <button class="tile btn" id="donateBtn" type="button" onclick="window.open('https://ko-fi.com/youraccount','_blank')">
+      <strong>Donate</strong>
+    </button>
+  </div>
+</header>
+
 
     <div class="board" id="board" aria-label="Game board"></div>
     <div class="kbd" id="kbd" aria-label="On-screen keyboard"></div>
