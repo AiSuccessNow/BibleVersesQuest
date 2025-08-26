@@ -25,4 +25,12 @@
 
 **Tip:** You may use non‑Bible guesses to gather clues; only the final correct word must be in the KJV list.
 
+This build restores the game board and keyboard.
+
+Key fixes:
+- Avoided CSS class collision by renaming button style to `.action-btn` (no longer `.tile`).
+- Explicit board row sizing with `grid-template-rows: repeat(6, var(--tile-size))`.
+
+Deploy as a normal GitHub Pages site.
+
 ---
